@@ -1,50 +1,40 @@
-<u>CareerConnect</u>
+# CareerConnect - Job Portal Platform
 
-CareerConnect is a full-stack job portal platform.
-It enables job seekers to browse and apply for jobs, while employers can post openings, manage applicants, and update company profiles.
 
-This repository contains the frontend of the platform, built with React, Vite, and TailwindCSS for a fast, modern, and responsive UI.
+**CareerConnect** is a full-stack job portal platform built with the MERN stack (MongoDB, Express.js, React, Node.js). It enables job seekers to browse and apply for jobs, while employers can post openings, manage applicants, and update company profiles.
 
-Features
-For Job Seekers:
+This repository contains the **frontend** of the platform, built with React, Vite, and TailwindCSS for a fast, modern, and responsive user experience.
 
-🔍 Browse and search for job listings
+---
 
-📄 Apply to jobs with resume upload
+## 🚀 Features
 
-📊 Track application status
+### For Job Seekers
+* **🔍 Browse and Search:** Easily find and filter job listings.
+* **📄 Apply to Jobs:** Submit applications with resume uploads.
+* **📊 Track Applications:** Monitor the status of submitted applications.
+* **👤 Manage Profile:** Create and update a personal user profile.
 
-👤 Manage personal profiles
+### For Employers
+* **📝 Post Jobs:** Create and publish new job openings.
+* **👥 Manage Applicants:** View and manage the list of candidates for a job.
+* **🏢 Company Profile:** Update company information and branding.
+* **📊 Monitor Applications:** Track application statistics for posted jobs.
 
-For Employers:
+---
 
-📝 Post new job openings
+## 🔧 Tech Stack
 
-👥 View and manage applicants
+### Frontend
+* **Core Framework:** React 19 + Vite 7
+* **Styling:** TailwindCSS 4
+* **Animations:** Framer Motion
+* **Routing:** React Router v7
+* **API Communication:** Axios
 
-🏢 Update company profiles
-
-📊 Monitor job applications
-
-🔧 Tech Stack
-Frontend
-
-React 19 + Vite 7
-
-TailwindCSS 4 for styling
-
-Framer Motion for animations
-
-React Router v7 for routing
-
-Axios for API communication
-
-Backend (separate repo)
-
-Node.js + Express.js
-
-MongoDB as database
-
-JWT Authentication for security
-
-RESTful APIs for frontend-backend communication
+### Backend 
+* **Runtime:** Node.js
+* **Framework:** Express.js
+* **Database:** MongoDB
+* **Authentication:** JSON Web Tokens (JWT)
+* **API:** RESTful APIs
